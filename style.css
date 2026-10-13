@@ -188,6 +188,11 @@ img { max-width: 100%; height: auto; }
   padding-right: 24px;
 }
 
+a.service {
+  color: inherit;
+  text-decoration: none;
+}
+
 .service img {
   flex: none;
   width: 68px;
