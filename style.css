@@ -380,3 +380,64 @@ a.service {
   .partner-title { margin-bottom: 56px; }
   .logo-ns { width: min(344px, 100%); }
 }
+
+/* ---------- Contact page ---------- */
+.contact-hero {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, #D4365C 0%, #D64A51 24%, #DC6847 50%, #E18842 75%, #E8A842 100%);
+}
+
+.contact-hero-inner {
+  padding: 186px 24px 33px;
+}
+
+.contact-hero p {
+  margin: 0 auto;
+  max-width: 780px;
+  font-size: clamp(18px, 1.8vw, 22px);
+  line-height: 2;
+}
+
+.contact-hero .brand {
+  font-family: var(--serif-display);
+  font-size: 1.65em;
+  line-height: 1;
+}
+
+.contact-body {
+  padding: 116px 24px 140px;
+  text-align: center;
+  color: var(--purple-deep);
+}
+
+.contact-title {
+  margin: 0 0 90px;
+  font-family: var(--serif-display);
+  font-weight: 400;
+  font-size: clamp(38px, 5vw, 66px);
+  line-height: 1.1;
+}
+
+.contact-title .c-thrive { font-weight: 700; }
+.contact-title .c-adv { letter-spacing: 0.05em; }
+
+.contact-note {
+  margin: 0 auto;
+  max-width: 780px;
+  font-family: var(--serif-display);
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.4;
+}
+
+.contact-note a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .contact-hero-inner { padding-top: 96px; }
+  .contact-body { padding-top: 72px; }
+  .contact-title { margin-bottom: 56px; }
+}
